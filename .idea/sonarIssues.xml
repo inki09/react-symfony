@@ -28,12 +28,22 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/Entity/Movie.php">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/Entity/Province.php">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/Entity/Region.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/Form/MovieType.php">
           <value>
             <set />
           </value>
