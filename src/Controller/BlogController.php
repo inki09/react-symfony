@@ -24,8 +24,9 @@ class BlogController extends AbstractController
      */
     public function index()
     {
-            $province = $this->em->getRepository(Province::class)->find(1);
-        dump($province->getRegions()->toArray());die();
+            $province = $this->em->getRepository(Province::class);
+        dump($province);die();
+
         return $this->render('blog/index.html.twig', [
             'controller_name' => 'BlogController',
         ]);

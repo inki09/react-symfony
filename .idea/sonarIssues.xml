@@ -93,6 +93,16 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/templates/base.html.twig">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/templates/blog/index.html.twig">
+          <value>
+            <set />
+          </value>
+        </entry>
       </map>
     </option>
   </component>

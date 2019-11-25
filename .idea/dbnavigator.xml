@@ -25,7 +25,7 @@
     <show-object-properties value="true" />
     <loaded-nodes>
       <connection connection-id="4aa8786f-31d0-4923-a898-08d5466a9843">
-        <schema name="reasym" object-types="table, view" />
+        <schema name="reasym" object-types="index, procedure, constraint, function, table, view, dataset trigger" />
         <schema name="sagemcom" object-types="table, view" />
       </connection>
     </loaded-nodes>
