@@ -10,6 +10,7 @@ doctrine:
         result_cache_driver:
             type: service
             id: doctrine.result_cache_provider
+        default_entity_manager: default
 
 services:
     doctrine.result_cache_provider:

@@ -23,7 +23,12 @@
     <autoscroll-to-editor value="false" />
     <autoscroll-from-editor value="true" />
     <show-object-properties value="true" />
-    <loaded-nodes />
+    <loaded-nodes>
+      <connection connection-id="4aa8786f-31d0-4923-a898-08d5466a9843">
+        <schema name="reasym" object-types="table, view" />
+        <schema name="sagemcom" object-types="table, view" />
+      </connection>
+    </loaded-nodes>
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="4aa8786f-31d0-4923-a898-08d5466a9843">
