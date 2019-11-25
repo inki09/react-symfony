@@ -25,7 +25,9 @@
     <show-object-properties value="true" />
     <loaded-nodes>
       <connection connection-id="4aa8786f-31d0-4923-a898-08d5466a9843">
-        <schema name="reasym" object-types="index, procedure, constraint, function, table, view, dataset trigger" />
+        <schema name="reasym" object-types="table, view" />
+        <schema name="reasym15" object-types="table, view" />
+        <schema name="reasym5" object-types="index, procedure, constraint, function, table, column, view, dataset trigger" />
         <schema name="sagemcom" object-types="table, view" />
       </connection>
     </loaded-nodes>
@@ -36,19 +38,27 @@
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
-    <open-files />
+    <open-files>
+      <object connection-id="4aa8786f-31d0-4923-a898-08d5466a9843" object-ref="schemas/reasym5/tables/pub" />
+      <object connection-id="4aa8786f-31d0-4923-a898-08d5466a9843" object-ref="schemas/reasym5/tables/pub" />
+    </open-files>
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
     <connection id="4aa8786f-31d0-4923-a898-08d5466a9843" />
   </component>
   <component name="DBNavigator.Project.DatasetFilterManager">
+    <filter-actions connection-id="4aa8786f-31d0-4923-a898-08d5466a9843" dataset="reasym5.pub" active-filter-id="EMPTY_FILTER" />
     <filter-actions connection-id="4aa8786f-31d0-4923-a898-08d5466a9843" dataset="sagemcom.communes" active-filter-id="EMPTY_FILTER" />
     <filter-actions connection-id="4aa8786f-31d0-4923-a898-08d5466a9843" dataset="reasym.province" active-filter-id="EMPTY_FILTER" />
+    <filter-actions connection-id="4aa8786f-31d0-4923-a898-08d5466a9843" dataset="reasym15.commune" active-filter-id="EMPTY_FILTER" />
+    <filter-actions connection-id="4aa8786f-31d0-4923-a898-08d5466a9843" dataset="reasym5.test" active-filter-id="EMPTY_FILTER" />
     <filter-actions connection-id="4aa8786f-31d0-4923-a898-08d5466a9843" dataset="reasym.commune" active-filter-id="EMPTY_FILTER" />
     <filter-actions connection-id="4aa8786f-31d0-4923-a898-08d5466a9843" dataset="reasym.region" active-filter-id="EMPTY_FILTER" />
   </component>
   <component name="DBNavigator.Project.EditorStateManager">
-    <last-used-providers />
+    <last-used-providers>
+      <object-type object-type="TABLE" editor-provider="DATA" />
+    </last-used-providers>
   </component>
   <component name="DBNavigator.Project.MethodExecutionManager">
     <method-browser />
