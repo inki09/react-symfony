@@ -30,11 +30,10 @@ class UserManager extends AbstractController implements UserManagerInterface
     public function getEmCustormer($email)
     {
         $conn = $this->emC->getConnection();
-        $sql = "SELECT * FROM user_customer WHERE email = $email ";
+        $sql = "SELECT * FROM user_customer WHERE email = :email";
         $test = $conn->prepare($sql);
-        $test->execute();
-
-       $userCustomer = $test->fetchAll();
+        $test->execute(array('email' => $email));
+        $userCustomer = $test->fetchAll();
        return $userCustomer;
 
     }

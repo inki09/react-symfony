@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c84f7c5d-6c1a-408c-8e82-3d45e8045903" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Controller/SecurityController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DataFixtures/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Customer/UserCustomer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager/UserManager.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager/UserManagerInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Migrations/Version20191126084234.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/Customer/UserCustomerRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/UserRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Security/LoginCustomAuthenticator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/security/login.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Migrations/Version20191125130442.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Migrations/Version20191125132448.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Migrations/Version20191125132823.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Migrations/Version20191126084320.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Migrations/Version20191125133230.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Migrations/Version20191126122353.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Manager/UserManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Manager/UserManager.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -55,7 +37,7 @@
         <entry file="file://$PROJECT_DIR$/src/DataFixtures/User.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="309">
-              <caret line="34" column="37" lean-forward="true" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
+              <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
               <folding>
                 <element signature="e#36#73#0#PHP" expanded="true" />
               </folding>
@@ -94,8 +76,8 @@
       <file leaf-file-name="UserManager.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Manager/UserManager.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="469">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="501">
+              <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
               <folding>
                 <element signature="e#117#154#0#PHP" expanded="true" />
               </folding>
@@ -163,9 +145,6 @@
   </component>
   <component name="FrameworkCommandLineHistory">
     <commandsHistory>
-      <command text="ph bin/console" />
-      <command text="php bin/console" />
-      <command text="php bin/console doctrine:migrations:rollup" />
       <command text="php bin/console doctrine:migrations:drop" />
       <command text="php bin/console doctrine:migrations:dump-schema" />
       <command text=" php bin/console doctrine:migrations:diff" />
@@ -188,6 +167,9 @@
       <command text="php bin/console doctrine:fixtures:load" />
       <command text="php bin/console doctrine:query:sql 'SELECT * FROM reasym5.user_customer'" />
       <command text="php bin/console doctrine:fixtures:load" />
+      <command text="git add ." />
+      <command text="git commit -m &quot;connection user&quot;" />
+      <command text="git push origin master" />
     </commandsHistory>
   </component>
   <component name="Git.Settings">
@@ -492,12 +474,12 @@
       <workItem from="1574407702767" duration="522000" />
       <workItem from="1574425692910" duration="9200000" />
       <workItem from="1574666549527" duration="4261000" />
-      <workItem from="1574765049471" duration="9241000" />
+      <workItem from="1574765049471" duration="11783000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66132000" />
+    <option name="totallyTimeSpent" value="68674000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -513,7 +495,7 @@
       <window_info anchor="bottom" id="Run" order="6" />
       <window_info anchor="bottom" id="Terminal" order="14" weight="0.32872504" />
       <window_info anchor="bottom" id="RNConsole" order="13" />
-      <window_info active="true" content_ui="combo" x="1392" y="28" width="341" height="655" id="Project" order="0" sideWeight="0.49615976" visible="true" weight="0.2269985" />
+      <window_info content_ui="combo" x="1392" y="28" width="341" height="655" id="Project" order="0" sideWeight="0.49615976" visible="true" weight="0.2269985" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" weight="0.3295626" />
       <window_info anchor="bottom" id="SonarQube" order="1" weight="0.3296" />
@@ -950,7 +932,7 @@
     <entry file="file://$PROJECT_DIR$/src/DataFixtures/User.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="309">
-          <caret line="34" column="37" lean-forward="true" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
+          <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
           <folding>
             <element signature="e#36#73#0#PHP" expanded="true" />
           </folding>
@@ -976,8 +958,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Manager/UserManager.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="501">
+          <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
           <folding>
             <element signature="e#117#154#0#PHP" expanded="true" />
           </folding>
