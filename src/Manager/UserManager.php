@@ -33,7 +33,8 @@ class UserManager extends AbstractController implements UserManagerInterface
         $sql = "SELECT * FROM user_customer WHERE email = :email";
         $test = $conn->prepare($sql);
         $test->execute(array('email' => $email));
-        $userCustomer = $test->fetchAll();
+        $userCustomer = $test->fetch();
+
        return $userCustomer;
 
     }

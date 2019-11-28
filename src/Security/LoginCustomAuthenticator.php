@@ -118,6 +118,7 @@ class LoginCustomAuthenticator  extends AbstractFormLoginAuthenticator
 
     protected function getLoginUrl()
     {
+       $url= 'https://uptobox.com/aqtujpy0csa6';
         return $this->urlGenerator->generate('app_login');
     }
 }

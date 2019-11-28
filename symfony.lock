@@ -203,6 +203,9 @@
             "ref": "384cec52df45f3bfd46a09930d6960a58872b268"
         }
     },
+    "knplabs/knp-markdown-bundle": {
+        "version": "1.8.1"
+    },
     "lcobucci/jwt": {
         "version": "3.3.1"
     },
@@ -223,6 +226,9 @@
     },
     "limenius/react-renderer": {
         "version": "v4.0.2"
+    },
+    "michelf/php-markdown": {
+        "version": "1.8.0"
     },
     "monolog/monolog": {
         "version": "1.25.2"

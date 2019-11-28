@@ -23,13 +23,7 @@
     <autoscroll-to-editor value="false" />
     <autoscroll-from-editor value="true" />
     <show-object-properties value="true" />
-    <loaded-nodes>
-      <connection connection-id="4aa8786f-31d0-4923-a898-08d5466a9843">
-        <schema name="reasym" object-types="procedure, constraint, column, view, dataset trigger, function, index, table" />
-        <schema name="reasym5" object-types="procedure, constraint, column, view, dataset trigger, function, index, table" />
-        <schema name="sagemcom" object-types="view, table" />
-      </connection>
-    </loaded-nodes>
+    <loaded-nodes />
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="4aa8786f-31d0-4923-a898-08d5466a9843">
@@ -37,9 +31,7 @@
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
-    <open-files>
-      <object connection-id="4aa8786f-31d0-4923-a898-08d5466a9843" object-ref="schemas/reasym5/tables/user_customer" />
-    </open-files>
+    <open-files />
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
     <connection id="4aa8786f-31d0-4923-a898-08d5466a9843" />

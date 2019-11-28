@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c84f7c5d-6c1a-408c-8e82-3d45e8045903" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Manager/UserManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Manager/UserManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Security/LoginCustomAuthenticator.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Security/LoginCustomAuthenticator.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,7 +40,7 @@
       <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DataFixtures/User.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
+            <state relative-caret-position="480">
               <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
               <folding>
                 <element signature="e#36#73#0#PHP" expanded="true" />
@@ -45,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginCustomAuthenticator.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LoginCustomAuthenticator.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Security/LoginCustomAuthenticator.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="93" column="74" selection-start-line="93" selection-start-column="74" selection-end-line="93" selection-end-column="74" />
+            <state relative-caret-position="49">
+              <caret line="120" column="48" selection-start-line="120" selection-start-column="48" selection-end-line="120" selection-end-column="48" />
               <folding>
                 <element signature="e#32#69#0#PHP" expanded="true" />
               </folding>
@@ -57,27 +61,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user_customer" pinned="false" current-in-tab="false">
-        <entry file="db://4aa8786f-31d0-4923-a898-08d5466a9843/objects/schemas/reasym5/tables/user_customer">
-          <provider selected="true" editor-type-id="1.DATA">
-            <state row-count="21" readonly="false">
-              <columns>
-                <column name="id" position="0" visible="true" />
-                <column name="email" position="1" visible="true" />
-                <column name="roles" position="2" visible="true" />
-                <column name="password" position="3" visible="true" />
-              </columns>
-              <sorting />
-              <content-types />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserManager.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserManager.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Manager/UserManager.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="501">
-              <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+            <state relative-caret-position="496">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
               <folding>
                 <element signature="e#117#154#0#PHP" expanded="true" />
               </folding>
@@ -97,7 +85,7 @@
       <file leaf-file-name=".env" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.env">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
+            <state relative-caret-position="448">
               <caret line="28" column="21" selection-start-line="28" selection-end-line="28" selection-end-column="21" />
             </state>
           </provider>
@@ -106,7 +94,7 @@
       <file leaf-file-name="doctrine.yaml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/packages/doctrine.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
+            <state relative-caret-position="400">
               <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
             </state>
           </provider>
@@ -115,7 +103,7 @@
       <file leaf-file-name="UserCustomerRepository.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Repository/Customer/UserCustomerRepository.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
+            <state relative-caret-position="272">
               <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
               <folding>
                 <element signature="e#43#80#0#PHP" expanded="true" />
@@ -145,11 +133,6 @@
   </component>
   <component name="FrameworkCommandLineHistory">
     <commandsHistory>
-      <command text="php bin/console doctrine:migrations:drop" />
-      <command text="php bin/console doctrine:migrations:dump-schema" />
-      <command text=" php bin/console doctrine:migrations:diff" />
-      <command text=" php bin/console doctrine:database:create" />
-      <command text=" php bin/console doctrine:database:create --connection=customer" />
       <command text=" php bin/console doctrine:migrations:migrate --em=customer" />
       <command text=" php bin/console doctrine:migrations:diff" />
       <command text="php bin/console doctrine:migrations:migrate" />
@@ -170,6 +153,11 @@
       <command text="git add ." />
       <command text="git commit -m &quot;connection user&quot;" />
       <command text="git push origin master" />
+      <command text="git add ." />
+      <command text="git status" />
+      <command text="git commit -m &quot;query builder for user customer&quot;" />
+      <command text="git push origin master" />
+      <command text="composer require knplabs/knp-markdown-bundle" />
     </commandsHistory>
   </component>
   <component name="Git.Settings">
@@ -201,8 +189,8 @@
         <option value="$PROJECT_DIR$/src/Repository/Customer/UserCustomerRepository.php" />
         <option value="$PROJECT_DIR$/src/DataFixtures/User.php" />
         <option value="$PROJECT_DIR$/src/Manager/UserManagerInterface.php" />
-        <option value="$PROJECT_DIR$/src/Security/LoginCustomAuthenticator.php" />
         <option value="$PROJECT_DIR$/src/Manager/UserManager.php" />
+        <option value="$PROJECT_DIR$/src/Security/LoginCustomAuthenticator.php" />
       </list>
     </option>
   </component>
@@ -394,12 +382,6 @@
               <item name="reasym" type="b2602c69:ProjectViewProjectNode" />
               <item name="reasym" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Manager" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="reasym" type="b2602c69:ProjectViewProjectNode" />
-              <item name="reasym" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Repository" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -474,12 +456,13 @@
       <workItem from="1574407702767" duration="522000" />
       <workItem from="1574425692910" duration="9200000" />
       <workItem from="1574666549527" duration="4261000" />
-      <workItem from="1574765049471" duration="11783000" />
+      <workItem from="1574765049471" duration="13633000" />
+      <workItem from="1574926733507" duration="1284000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68674000" />
+    <option name="totallyTimeSpent" value="71808000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -489,13 +472,13 @@
       <window_info anchor="right" id="DB Browser" order="4" sideWeight="0.49923196" visible="true" weight="0.053544495" />
       <window_info anchor="bottom" id="DB Execution Console" order="0" />
       <window_info anchor="bottom" id="Event Log" order="16" side_tool="true" weight="0.3296" />
-      <window_info anchor="bottom" x="1366" y="0" width="1366" height="768" id="Command Line Tools Console" order="17" weight="0.60225445" />
+      <window_info active="true" anchor="bottom" x="1366" y="0" width="1366" height="768" id="Command Line Tools Console" order="17" visible="true" weight="0.60225445" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="15" />
       <window_info anchor="bottom" id="Run" order="6" />
       <window_info anchor="bottom" id="Terminal" order="14" weight="0.32872504" />
       <window_info anchor="bottom" id="RNConsole" order="13" />
-      <window_info content_ui="combo" x="1392" y="28" width="341" height="655" id="Project" order="0" sideWeight="0.49615976" visible="true" weight="0.2269985" />
+      <window_info content_ui="combo" x="1392" y="28" width="341" height="655" id="Project" order="0" sideWeight="0.49615976" visible="true" weight="0.23001508" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" weight="0.3295626" />
       <window_info anchor="bottom" id="SonarQube" order="1" weight="0.3296" />
@@ -504,12 +487,12 @@
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection Results" order="2" weight="0.3296" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection Results" order="2" weight="0.3296" />
       <window_info anchor="bottom" id="atoum" order="3" weight="0.3296" />
       <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
     </layout>
@@ -767,9 +750,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
           <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-          <folding>
-            <element signature="e#30#62#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -850,9 +830,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="389">
           <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
-          <folding>
-            <element signature="e#34#62#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -893,21 +870,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
+        <state relative-caret-position="448">
           <caret line="28" column="21" selection-start-line="28" selection-end-line="28" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/packages/doctrine.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
+        <state relative-caret-position="400">
           <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Repository/Customer/UserCustomerRepository.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
+        <state relative-caret-position="272">
           <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
           <folding>
             <element signature="e#43#80#0#PHP" expanded="true" />
@@ -931,7 +908,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DataFixtures/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
+        <state relative-caret-position="480">
           <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
           <folding>
             <element signature="e#36#73#0#PHP" expanded="true" />
@@ -946,22 +923,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Security/LoginCustomAuthenticator.php">
+    <entry file="file://$PROJECT_DIR$/src/Manager/UserManager.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="93" column="74" selection-start-line="93" selection-start-column="74" selection-end-line="93" selection-end-column="74" />
+        <state relative-caret-position="496">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
           <folding>
-            <element signature="e#32#69#0#PHP" expanded="true" />
+            <element signature="e#117#154#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Manager/UserManager.php">
+    <entry file="file://$PROJECT_DIR$/src/Security/LoginCustomAuthenticator.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501">
-          <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+        <state relative-caret-position="49">
+          <caret line="120" column="48" selection-start-line="120" selection-start-column="48" selection-end-line="120" selection-end-column="48" />
           <folding>
-            <element signature="e#117#154#0#PHP" expanded="true" />
+            <element signature="e#32#69#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
